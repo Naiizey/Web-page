@@ -1,0 +1,65 @@
+h1
+{
+	margin-top : 100px;
+	color : red;
+}
+
+body
+{
+	background-color : rgba(48,48,48,1);
+	margin = 0 auto;
+	text-align : center;
+}
+
+.text
+{
+	background-color: rgba(48,48,48,1);
+	height: 100px;
+	background-size: cover;
+	left: 50px;
+	right: 50px;
+	justify-items: space-between;
+}
+
+a:link
+{
+	text-decoration : none;
+}
+
+nav.nav
+{
+	display: flex;
+	justify-items : space-between;
+	list-style: none;
+	width : 1920px;
+	margin-left: 500px
+}
+
+header.header
+{
+	display: flex;
+	align-items: center;
+	position : sticky;
+	top : 0;
+}
+
+.youtube
+{
+	margin-top : 100px;
+}
+
+.instagram
+{
+	margin-top : 100px;
+}
+
+.tiktok
+{
+	margin-top : 100px;
+}
+
+.top-page
+{
+	position : sticky;
+	top : 0;
+}
