@@ -6,9 +6,9 @@ h1
 
 body
 {
-	background-color : rgba(48,48,48,1);
-	margin = 0 auto;
+	margin : 0 auto;
 	text-align : center;
+	position : relative;
 }
 
 .text
@@ -16,9 +16,8 @@ body
 	background-color: rgba(48,48,48,1);
 	height: 100px;
 	background-size: cover;
-	left: 50px;
-	right: 50px;
 	justify-items: space-between;
+	position : relative;
 }
 
 a:link
@@ -31,15 +30,14 @@ nav.nav
 	display: flex;
 	justify-items : space-between;
 	list-style: none;
-	width : 1920px;
-	margin-left: 500px
+	width : 1925px;
+	position : sticky;
 }
 
 header.header
 {
 	display: flex;
 	align-items: center;
-	position : sticky;
 	top : 0;
 }
 
@@ -62,4 +60,12 @@ header.header
 {
 	position : sticky;
 	top : 0;
+}
+
+.video
+{
+	position : fixed;
+	min-height: 100%;
+	min-width: 100%;
+	z-index : -1;
 }
